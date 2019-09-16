@@ -8,9 +8,9 @@ function App() {
   
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="App">
-      <Route path="/:name" component={Message} />
+      <Route path={process.env.PUBLIC_URL + '/:name'} component={Message} />
       </div>
     </Router>
     
