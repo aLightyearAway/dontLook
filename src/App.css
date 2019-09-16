@@ -1,6 +1,12 @@
 .App {
   text-align: center;
+  padding-top: 50px;
+  color: red; 
 }
+h1{
+  font-size: 4em;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
