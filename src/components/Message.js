@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, {keyframes} from 'styled-components';
 import { flash } from 'react-animations';
-import styles from './Message.module.css';
+import './Message.module.css';
 
 function Message (props){
         const Bounce = styled.div`animation 3s ${keyframes`${flash}`} infinite`;
